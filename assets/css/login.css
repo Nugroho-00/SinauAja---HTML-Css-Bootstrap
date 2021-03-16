@@ -1,0 +1,135 @@
+:root {
+    --color_main: #5784BA;
+    --color_secondary: #ADA9BB;
+}
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-color: #E6EDF6;
+}
+
+.container{
+    height: 100vh;
+    padding: 0;
+    font-family:Kanit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content{
+    width: 50%;
+    min-width: 300px;
+    height: 70%;
+}
+a img{
+    position: fixed; left: 30px; top:30px;
+}
+
+.container .main-content .header{
+    text-align: center;
+}
+
+.container .main-content .header h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.container .form-auth{
+    margin-top: 2em;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width:100%;
+}
+
+.form-auth label[for="name"]{
+    position: absolute;
+    padding: 2px;
+    color:var(--color_secondary);
+    left: 15px;
+    font-size:10px;
+    background-color: #fff;
+}
+
+.form-auth input[type="name"],button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 45%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.form-auth input[type="name"]{
+    border: 1px solid var(--color_secondary);
+    border-radius: .25rem;
+    outline: none;
+}
+
+.form-auth input[type="name"]::placeholder{
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(165, 165, 165);
+}
+
+.form-auth input[type="name"]:focus{
+    border: 3px solid var(--color_main);
+}
+
+.form-auth input[type="name"]:focus + label[for="name"]{
+    font-weight: 600;
+    color:var(--color_main);
+}
+
+.form-auth label[for="password"]{
+    position: absolute;
+    top: 65px;
+    padding: 2px;
+    color:var(--color_secondary);
+    left: 15px;
+    font-size:10px;
+    background-color: #fff;
+}
+
+.form-auth input[type="password"],button{
+    margin-top: 10px;
+    height: 45%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.form-auth input[type="password"]{
+    border: 1px solid var(--color_secondary);
+    border-radius: .25rem;
+    outline: none;
+}
+
+.form-auth input[type="password"]::placeholder{
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(165, 165, 165);
+}
+
+.form-auth input[type="password"]:focus{
+    border: 3px solid var(--color_main);
+}
+
+.form-auth input[type="password"]:focus + label[for="password"]{
+    font-weight: 600;
+    color:var(--color_main);
+}
+
+.form-auth button{
+    background-color:var(--color_main);
+    color: white;
+}
+
+.form-auth button:hover{
+    color: white;
+}
+  

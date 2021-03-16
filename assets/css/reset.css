@@ -1,0 +1,112 @@
+@media only screen and (max-width: 767px) {
+    section.section-1 {
+        width: 0;
+        display: none;
+    }
+    section.section-1 img{
+        display: none;
+    }
+    section.section-2{
+        width:100%;
+    }
+}  
+
+:root {
+    --color_main: #5784BA;
+    --color_secondary: #ADA9BB;
+}
+
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: #E6EDF6;
+}
+.container-fluid{
+    height: 100vh;
+    padding: 0;
+    font-family:Kanit;
+}
+section{
+    height: 100vh;
+    width: 50%;
+}
+section.section-2{
+    background-color: #fff;
+}
+.main-content{
+    width: 50%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 70%;
+}
+a img{
+    position: fixed; left: 30px; top:30px;
+}
+.main-content p.subTitle{
+    margin-top: 2em;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 600;
+}s
+h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+section .main-content p.messages{
+    padding: 0.5em;
+    margin-bottom:3em;
+    font-size:14px;
+    color: #837F8F;
+}
+section .form-reset{
+    margin-top: 2em;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width:100%;
+}
+.form-reset label[for="email"]{
+    position: absolute;
+    padding: 2px;
+    color:var(--color_secondary);
+    left: 15px;
+    font-size:10px;
+    background-color: #fff;
+}
+.form-reset input[type="email"],button{
+    margin-top: 10px;
+    height: 45%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.form-reset input[type="email"]{
+    border: 1px solid var(--color_secondary);
+    border-radius: .25rem;
+    outline: none;
+}
+.form-reset input[type="email"]::placeholder{
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(165, 165, 165);
+}
+.form-reset input[type="email"]:focus{
+    border: 3px solid var(--color_main);
+}
+.form-reset input[type="email"]:focus + label[for="email"]{
+    font-weight: 600;
+    color:var(--color_main);
+}
+.form-reset button{
+    background-color:var(--color_main);
+    color: white;
+}
+.form-reset button:hover{
+    color: white;
+}
+  
