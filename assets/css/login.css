@@ -51,6 +51,7 @@ a img{
 .form-auth label[for="name"]{
     position: absolute;
     padding: 2px;
+    top: 3px;
     color:var(--color_secondary);
     left: 15px;
     font-size:10px;
@@ -88,12 +89,18 @@ a img{
 
 .form-auth label[for="password"]{
     position: absolute;
-    top: 65px;
+    top: 67px;
     padding: 2px;
     color:var(--color_secondary);
     left: 15px;
     font-size:10px;
     background-color: #fff;
+}
+
+.form-auth img{
+    position: absolute;
+    top: 80px;
+    right: 10px;
 }
 
 .form-auth input[type="password"],button{
@@ -124,12 +131,57 @@ a img{
     color:var(--color_main);
 }
 
-.form-auth button{
+.container .form-auth .forget{
+    text-align: right;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+.container .form-auth .forget a{
+    font-size: 14px;
+    font-family: Roboto;
+    color: #000000;
+    text-decoration: none;
+}
+
+.form-auth .btn-google{
+    background-color: rgba(0, 13, 79, 0.08);
+    color: #010620;
+    font-family: Roboto;
+    height: 48px;
+}
+
+.form-auth .btn-login{
     background-color:var(--color_main);
+    color: white;
+    height: 48px;
+}
+
+.form-auth .btn-login a{
+    text-decoration: none;
     color: white;
 }
 
-.form-auth button:hover{
+.form-auth .google img{
+    top: 240px;
+    text-align: center;
+}
+
+.form-auth .user {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-auth .user span {
+    color: #ADA9BB;
+} 
+
+.form-auth .user a {
+    text-decoration: none;
+}
+
+
+/* .form-auth button:hover{
     color: white;
 }
-  
+   */
