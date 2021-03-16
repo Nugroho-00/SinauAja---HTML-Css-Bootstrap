@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/allschedule.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Roboto font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Montserrat font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <!-- Kanit font -->
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+    <title>All Schedule</title>
+  </head>
+  <body>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col sidebar">
+                <div class="sidebar-wrapper">
+                    <!-- sidebar notif -->
+                    <div class="sidebar-icon-notif">
+                        <img src="assets/img/icons/notif-active.svg" alt="icon notif">
+                    </div>
+                    <!-- sidebar user info -->
+                    <div class="sidebar-user-info">
+                        <img src="assets/img/dummy/user.svg" alt="user info">
+                        <div class="user-info">
+                            <h1 class="name-user">Emir Kharisma</h1>
+                            <p class="status-active">online</p>
+                        </div>
+                    </div>
+                    <!-- sidebar activity -->
+                    <div class="sidebar-activity">
+                        <div class="content active">
+                            <img src="assets/img/icons/dashboard-active.svg" id="dashboard" alt="dashboard icon">
+                            <p>Dashboard</p>
+                        </div>
+                        <div class="content">
+                            <img src="assets/img/icons/activity.svg" id="activity" alt="activity icon">
+                            <p>Activity</p>
+                        </div>
+                        <div class="content">
+                            <img src="assets/img/icons/help.svg" id="help" alt="help icon">
+                            <p>Help</p>
+                        </div>
+                        <div class="content">
+                            <img src="assets/img/icons/logout.svg" id="logout" alt="logout icon">
+                            <p>Logout</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="col content">
+                <div class="row">
+                    <div class="col main-content">
+                        <div class="row">
+                            <div class="col news">
+                                <h1 class="title">News</h1>
+                                <div class="news">
+                                    <div class="news-slider">
+                                        <img src="assets/img/dummy/news1.png" class="news-image" alt="News Image">
+                                    </div>
+                                    <div class="caption">
+                                        <h1>New update for front end development class sylabus!</h1>
+                                        <div class="navigation">
+                                            <div class="navigation-item active" onclick="slideNews('news1', 'png')" id="news1"></div>
+                                            <div class="navigation-item" onclick="slideNews('news2', 'jpeg')" id="news2"></div>
+                                            <div class="navigation-item" onclick="slideNews('news3', 'jpeg')" id="news3"></div>
+                                            <div class="navigation-item" onclick="slideNews('news4', 'jpeg')" id="news4"></div>
+                                            <div class="navigation-item" onclick="slideNews('news5', 'jpeg')" id="news5"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col schedule">
+                                <!-- Calendar -->
+                                <div class="calender-wrapper">
+                                    <h1 class="header">Today, October 16</h1>
+                                    <div class="calendar">
+                                        <div class="cal mo">
+                                            <h1>mo</h1>
+                                            <p>12</p>
+                                        </div>
+                                        <div class="cal tu">
+                                            <h1>tu</h1>
+                                            <p>13</p>
+                                        </div>
+                                        <div class="cal we">
+                                            <h1>we</h1>
+                                            <p>14</p>
+                                        </div>
+                                        <div class="cal th">
+                                            <h1>th</h1>
+                                            <p>15</p>
+                                        </div>
+                                        <div class="cal fr active">
+                                            <h1>fr</h1>
+                                            <p>16</p>
+                                        </div>
+                                        <div class="cal sa">
+                                            <h1>sa</h1>
+                                            <p>17</p>
+                                        </div>
+                                        <div class="cal su">
+                                            <h1>su</h1>
+                                            <p>18</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Schedule -->
+                                <div class="schedule-wrapper">
+                                    <h1 class="title">All schedule <span>For you</span></h1>
+
+                                    <div class="row schedules">
+                                        <div class="col shadow-sm time">08.00 - 09.40</div>
+                                        <div class="col">
+                                            <div class="row">
+                                                <div class="col shadow-sm description">
+                                                    <p>Introduction to Banking Finance</p>
+                                                    <img src="assets/img/dummy/progress-bar.svg" alt="progress-bar">
+                                                </div>
+                                                <div class="col shadow-sm description">
+                                                    <p>Trygonometry</p>
+                                                    <img src="assets/img/dummy/progress-bar.svg" alt="progress-bar">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row schedules">
+                                        <div class="col shadow-sm time">11.00 - 11.40</div>
+                                        <div class="col">
+                                            <div class="row">
+                                                <div class="col shadow-sm description">
+                                                    <p>History of Europe</p>
+                                                    <img src="assets/img/dummy/progress-bar.svg" alt="progress-bar">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row schedules">
+                                        <div class="col shadow-sm time">13.00 - 15.30</div>
+                                        <div class="col">
+                                            <div class="row">
+                                                <div class="col shadow-sm description">
+                                                    <p>Fundamental of Front End Development</p>
+                                                    <img src="assets/img/dummy/progress-bar.svg" alt="progress-bar">
+                                                </div>
+                                                <div class="col shadow-sm description">
+                                                    <p>Molecular Biology</p>
+                                                    <img src="assets/img/dummy/progress-bar.svg" alt="progress-bar">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4 messages">
+                        <div class="messages-wrapper">
+                            <div class="header">
+                                <div class="navigation">
+                                    <h1>Messages</h1>
+                                    <img src="assets/img/icons/add-message.svg" alt="Add Message">
+                                </div>
+                                <div class="search-wrapper">
+                                    <img src="assets/img/icons/search-message.svg" class="search-icon">
+                                    <input type="text" class="search" placeholder="Search">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <img src="assets/img/dummy/user.svg" alt="user">
+                                        <div class="info">
+                                            <h1 class="name">Isyana Sarasvati fn</h1>
+                                            <p class="message">How about number 3?</p>
+                                        </div>
+                                        <span class="date">10.15 pm</span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <img src="assets/img/dummy/user1.svg" alt="user">
+                                        <div class="info">
+                                            <h1 class="name">Nissa Sabyan</h1>
+                                            <p class="message">How about number 3?</p>
+                                        </div>
+                                        <span class="date">10.15 pm</span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <img src="assets/img/dummy/user2.svg" alt="user">
+                                        <div class="info">
+                                            <h1 class="name">Rio Dewanto</h1>
+                                            <p class="message">I’m hungry.</p>
+                                        </div>
+                                        <span class="date">10.15 pm</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+    <script>
+        // Toggle Sidebar
+        const sidebarContent = [...document.querySelectorAll('div.sidebar-activity div.content')]
+        const toggleSidebar = (content) => {
+            sidebarContent.forEach((sidebar) => {
+                const sideImg = sidebar.querySelector('img');
+                sideImg.src = `assets/img/icons/${sideImg.id}.svg`;
+                sidebar.classList.remove('active');
+            })
+            const image = content.querySelector('img');
+            content.classList.toggle('active')
+            image.src = `assets/img/icons/${image.id}-active.svg`;
+        }
+        sidebarContent.forEach((sidebar) => {
+            if(sidebar.querySelector('img').id !== 'logout') {
+                sidebar.addEventListener('click', () => toggleSidebar(sidebar))
+            }
+        })
+
+
+        // Slider News
+        const navigationNews = [...document.querySelectorAll('div.navigation-item')];
+        const slideNews = (id, extension) => {
+            navigationNews.forEach((navigation) => {
+                navigation.classList.remove('active');
+            })
+
+            document.querySelector('img.news-image').src = `assets/img/dummy/${id}.${extension}`;
+            document.getElementById(id).classList.toggle('active')
+        }
+
+    </script>
+  </body>
+</html>

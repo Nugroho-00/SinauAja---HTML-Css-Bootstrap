@@ -1,0 +1,463 @@
+div.col.sidebar {
+  max-width: 252px;
+  min-height: 100%;
+  max-height: 115vh;
+  padding: 0;
+}
+
+div.col.sidebar div.sidebar-wrapper {
+  background-color: #5784BA;
+  padding: 0 0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+div.col.sidebar div.sidebar-wrapper.profile {
+  background-color: #FFF;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-icon-notif {
+  padding: 34px 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-icon-notif img {
+  cursor: pointer;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info {
+  padding: 0 32px 75px;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info img {
+  width: 56px;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info {
+  margin-top: 26px;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info.profile h1, div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info.profile p {
+  color: #202020;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info h1, div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info p {
+  color: #F9F9F9;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info h1 {
+  font-size: 20px;
+  line-height: 23.44px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info p {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity {
+  -webkit-transition: .3s;
+  transition: .3s;
+  padding-bottom: 100px;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity.profile {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: #5784BA;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content {
+  padding: 0 37px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 78px;
+  cursor: pointer;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content img {
+  margin-right: 31px;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #FFF;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content.active {
+  height: 98px;
+  background-color: #FFF;
+  position: relative;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: -20px;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content.active img, div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content.active p {
+  margin-top: -20px;
+  color: #2F2F2F;
+  z-index: 9;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content.active::after {
+  content: "";
+  display: block;
+  height: 20px;
+  width: 100%;
+  background-color: #5784BA;
+  position: absolute;
+  z-index: 99;
+  left: 0;
+  bottom: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+div.container-fluid {
+  padding: 24px;
+  background-color: #E6EDF6;
+  font-family: "Roboto", sans-serif;
+}
+
+div.container-fluid div.row {
+  margin: 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+div.container-fluid div.row div.col.content {
+  padding-left: 40px;
+  padding-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.container-fluid div.row div.col.content div.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.container-fluid div.row div.col.content div.navigation img {
+  margin-right: 22px;
+  margin-left: 7px;
+}
+
+div.container-fluid div.row div.col.content div.navigation h1 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+div.container-fluid div.row div.col.content div.body-content {
+  margin-top: 24px;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-header {
+  height: 300px;
+  background-image: url(../img/dummy/bg-class-detail.png);
+  border-radius: 20px 20px 0 0;
+  padding: 17px 80px;
+  padding-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-header div.header-detail-class {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-header div.header-detail-class div.information-class-wrapper h1.title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 16px;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-header div.header-detail-class div.information-class-wrapper div.information-class {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-header div.header-detail-class div.information-class-wrapper div.information-class p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  margin-right: 32px;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-header div.header-detail-class div.information-class-wrapper div.information-class p.price {
+  margin: 0;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-header div.header-detail-class div.icon-class {
+  position: relative;
+  bottom: -80px;
+  width: 240px;
+  height: 240px;
+  background-color: #5784BA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: centr;
+      -ms-flex-align: centr;
+          align-items: centr;
+  border-radius: 10px;
+  margin-right: 32px;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-header div.score h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+  margin-bottom: -10px;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-header div.score p.score {
+  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  letter-spacing: 0.05em;
+  color: #51E72B;
+  margin-bottom: -23px;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-body {
+  background-color: #FFF;
+  padding: 0 80px 38px;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-body div.progress-user {
+  height: 100px;
+  width: 100%;
+  padding-left: 272px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-body div.progress-user p {
+  margin-bottom: 0;
+  margin-top: -15px;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-body div.progress-user div.progress {
+  height: 3px;
+  overflow: visible;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-body div.progress-user div.progress div.progress-bar {
+  margin-top: -2px;
+  height: 7px;
+  border-radius: 10px;
+  background-color: #5784BA;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-body ul.nav-pills {
+  padding-bottom: 5px;
+  border-bottom-width: .7px;
+  border-bottom-color: #000;
+  border-bottom-style: solid;
+  z-index: 9;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-body ul.nav-pills li.nav-item button.nav-link {
+  background-color: transparent;
+  padding: 0;
+  margin-right: 62px;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-body ul.nav-pills li.nav-item button.nav-link.active {
+  position: relative;
+  color: #5784BA;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-body ul.nav-pills li.nav-item button.nav-link.active::after {
+  content: "";
+  z-index: 10;
+  display: block;
+  position: absolute;
+  bottom: -7px;
+  width: 102%;
+  left: 0;
+  height: 3px;
+  background-color: #5784BA;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-body div.tab-content {
+  font-family: "Montserrat", sans-serif;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-body div.tab-content h1.title {
+  margin: 32px 0 35px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-body div.tab-content .description-body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21.09px;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-body div.tab-content div.description h1.description-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+  margin: 33px 0 24px;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-body div.tab-content div ul li.description-body {
+  margin: 5px 0;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-body div.tab-content ul.class-progress {
+  margin-top: 24px;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-body div.tab-content ul.class-progress li {
+  margin-bottom: 2px;
+  padding: 0 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 68px;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-body div.tab-content ul.class-progress li p {
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-body div.tab-content ul.class-progress li p.title {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  /* identical to box height */
+  color: #000000;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-body div.tab-content ul.class-progress li p.description {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  color: #979797;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-body div.tab-content ul.class-progress li p.description.late {
+  color: black;
+  font-style: normal;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-body div.tab-content ul.class-progress li p.score {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: end;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #2BE7D0;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-body div.tab-content ul.class-progress li p.score.unfinished {
+  margin-right: -20px;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-body div.tab-content ul.class-progress li p.score.unfinished span {
+  width: 84px;
+  height: 24px;
+  left: 1240px;
+  top: 1067px;
+  background: #EDD2D2;
+  border-radius: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  color: #BA5757;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-body div.tab-content ul.class-progress li div.form-check {
+  width: 52px;
+  margin-bottom: 0;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.content-body div.tab-content ul.class-progress li div.form-check input.form-check-input {
+  width: 20px;
+  height: 20px;
+  margin-right: 0;
+  padding: 0;
+  margin-top: 0;
+}
+/*# sourceMappingURL=classprogress.css.map */

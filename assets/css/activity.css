@@ -1,0 +1,467 @@
+div.col.sidebar {
+  max-width: 252px;
+  min-height: 100%;
+  max-height: 115vh;
+  padding: 0;
+}
+
+div.col.sidebar div.sidebar-wrapper {
+  background-color: #5784BA;
+  padding: 0 0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+div.col.sidebar div.sidebar-wrapper.profile {
+  background-color: #FFF;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-icon-notif {
+  padding: 34px 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-icon-notif img {
+  cursor: pointer;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info {
+  padding: 0 32px 75px;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info img {
+  width: 56px;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info {
+  margin-top: 26px;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info.profile h1, div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info.profile p {
+  color: #202020;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info h1, div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info p {
+  color: #F9F9F9;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info h1 {
+  font-size: 20px;
+  line-height: 23.44px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info p {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity {
+  -webkit-transition: .3s;
+  transition: .3s;
+  padding-bottom: 100px;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity.profile {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: #5784BA;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content {
+  padding: 0 37px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 78px;
+  cursor: pointer;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content img {
+  margin-right: 31px;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #FFF;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content.active {
+  height: 98px;
+  background-color: #FFF;
+  position: relative;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: -20px;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content.active img, div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content.active p {
+  margin-top: -20px;
+  color: #2F2F2F;
+  z-index: 9;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content.active::after {
+  content: "";
+  display: block;
+  height: 20px;
+  width: 100%;
+  background-color: #5784BA;
+  position: absolute;
+  z-index: 99;
+  left: 0;
+  bottom: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+div.container-fluid {
+  padding: 24px;
+  background-color: #E6EDF6;
+  font-family: "Roboto", sans-serif;
+}
+
+div.container-fluid div.row {
+  margin: 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+div.container-fluid div.row div.col.content {
+  padding-left: 40px;
+  padding-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.container-fluid div.row div.col.content div.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.container-fluid div.row div.col.content div.navigation h1 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+div.container-fluid div.row div.col.content h2.title {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #000;
+  margin-top: 33px;
+  margin-bottom: 0;
+  margin-left: 24px;
+}
+
+div.container-fluid div.row div.col.content div.body-content {
+  margin-top: 8px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+div.container-fluid div.row div.col.content div.body-content table tbody td span.badge {
+  background-color: #D2DEED;
+  font-weight: 500;
+  color: #5784BA;
+  font-size: 12px;
+  font-weight: 12px;
+  padding: 4px 8px;
+  border-radius: 15px;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.view-all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.view-all a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+div.container-fluid div.row div.col.content div.body-content div.view-all a p {
+  margin-bottom: 0;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #000;
+  margin-right: 10px;
+}
+
+div.container-fluid div.row div.col.content table {
+  font-family: "Montserrat", sans-serif;
+}
+
+div.container-fluid div.row div.col.content table div.form-check {
+  padding: 0;
+  margin: 0;
+}
+
+div.container-fluid div.row div.col.content table div.form-check input {
+  margin: 0;
+  width: 20px;
+  height: 20px;
+}
+
+div.container-fluid div.row div.col.content table tbody, div.container-fluid div.row div.col.content table td, div.container-fluid div.row div.col.content table tfoot, div.container-fluid div.row div.col.content table th, div.container-fluid div.row div.col.content table thead, div.container-fluid div.row div.col.content table tr {
+  border-style: none;
+}
+
+div.container-fluid div.row div.col.content table thead tr th {
+  padding: 27px 12px;
+}
+
+div.container-fluid div.row div.col.content table thead tr th.checklist {
+  padding: 27px 32px;
+}
+
+div.container-fluid div.row div.col.content table tbody tr th {
+  padding: 24px 32px;
+  background-color: #FFF;
+}
+
+div.container-fluid div.row div.col.content table tbody tr.spacer {
+  background-color: #FFF;
+  border-bottom: 2px solid #D2DEED;
+}
+
+div.container-fluid div.row div.col.content table tbody tr.spacer td {
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  padding: 14px 12px;
+}
+
+div.container-fluid div.row div.col.content table tbody tr.spacer td.score {
+  font-size: 24px;
+  font-weight: 700;
+  color: #51E72B;
+}
+
+div.container-fluid div.row div.col.content table tbody tr.spacer td.list-vertical {
+  cursor: pointer;
+  padding: 0 25px;
+}
+
+div.container-fluid div.row div.col.content div.my-class {
+  background-color: #FFF;
+  border-radius: 20px;
+  padding: 32px 30px;
+  margin-top: 40px;
+}
+
+div.container-fluid div.row div.col.content div.my-class h1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+}
+
+div.container-fluid div.row div.col.content div.my-class div.search-new-class span {
+  background-color: #FFF;
+  border-right: 0;
+}
+
+div.container-fluid div.row div.col.content div.my-class div.search-new-class input {
+  border-left: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 15px;
+}
+
+div.container-fluid div.row div.col.content div.my-class div.search-new-class ::-webkit-input-placeholder {
+  color: #ADA9A9;
+}
+
+div.container-fluid div.row div.col.content div.my-class div.search-new-class :-ms-input-placeholder {
+  color: #ADA9A9;
+}
+
+div.container-fluid div.row div.col.content div.my-class div.search-new-class ::-ms-input-placeholder {
+  color: #ADA9A9;
+}
+
+div.container-fluid div.row div.col.content div.my-class div.search-new-class ::placeholder {
+  color: #ADA9A9;
+}
+
+div.container-fluid div.row div.col.content div.my-class div.search-new-class button {
+  background-color: #5784BA;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 28px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #FFF;
+  z-index: 99;
+  margin-left: 10px;
+}
+
+div.container-fluid div.row div.col.content div.my-class div.option-search {
+  height: 40px;
+  background-color: #EEE;
+  margin-top: -5px;
+  border-radius: 0px 0px 10px 10px;
+  padding: 0 24px;
+  padding-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+div.container-fluid div.row div.col.content div.my-class div.option-search div.input-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 25px;
+}
+
+div.container-fluid div.row div.col.content div.my-class div.option-search div.input-group label {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #000;
+  margin-right: 10px;
+}
+
+div.container-fluid div.row div.col.content div.my-class div.option-search div.input-group button {
+  border: 0;
+  padding: 0;
+}
+
+div.container-fluid div.row div.col.content div.my-class div.option-search div.input-group button::after {
+  display: none;
+}
+
+div.container-fluid div.row div.col.content div.my-class table {
+  margin-top: 32px;
+}
+
+div.container-fluid div.row div.col.content div.my-class table thead tr th {
+  padding: 16px 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+div.container-fluid div.row div.col.content div.my-class table tbody tr.spacer td {
+  padding: 25px 24px;
+  padding-right: 0;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #000;
+}
+
+div.container-fluid div.row div.col.content div.my-class table tbody tr.spacer td span {
+  background-color: red;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #FEFEFE;
+  padding: 6px 16px;
+  border-radius: 16px;
+  background: #57BA61;
+}
+
+div.container-fluid div.row div.col.content div.my-class table tbody tr.spacer td.list-vertical {
+  padding: 0 25px;
+}
+
+div.container-fluid div.row div.col.content div.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
+}
+
+div.container-fluid div.row div.col.content div.pagination p {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  margin-bottom: 0;
+}
+
+div.container-fluid div.row div.col.content div.pagination nav ul li a {
+  width: 28px;
+  height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FFF;
+  margin: 0 6px;
+  border-radius: 5px;
+  color: #000;
+  font-size: 12px;
+  font-family: "Kanit", sans-serif;
+}
+
+div.container-fluid div.row div.col.content div.pagination nav ul li a.active {
+  background-color: #5784BA;
+  color: #FFF;
+}
+/*# sourceMappingURL=activity.css.map */

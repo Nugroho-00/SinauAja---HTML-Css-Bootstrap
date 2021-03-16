@@ -1,0 +1,381 @@
+div.col.sidebar {
+  max-width: 252px;
+  min-height: 100%;
+  max-height: 115vh;
+  padding: 0;
+}
+
+div.col.sidebar div.sidebar-wrapper {
+  background-color: #5784BA;
+  padding: 0 0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+div.col.sidebar div.sidebar-wrapper.profile {
+  background-color: #FFF;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-icon-notif {
+  padding: 34px 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-icon-notif img {
+  cursor: pointer;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info {
+  padding: 0 32px 75px;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info img {
+  width: 56px;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info {
+  margin-top: 26px;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info.profile h1, div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info.profile p {
+  color: #202020;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info h1, div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info p {
+  color: #F9F9F9;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info h1 {
+  font-size: 20px;
+  line-height: 23.44px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info p {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity {
+  -webkit-transition: .3s;
+  transition: .3s;
+  padding-bottom: 100px;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity.profile {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: #5784BA;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content {
+  padding: 0 37px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 78px;
+  cursor: pointer;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content img {
+  margin-right: 31px;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #FFF;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content.active {
+  height: 98px;
+  background-color: #FFF;
+  position: relative;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: -20px;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content.active img, div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content.active p {
+  margin-top: -20px;
+  color: #2F2F2F;
+  z-index: 9;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content.active::after {
+  content: "";
+  display: block;
+  height: 20px;
+  width: 100%;
+  background-color: #5784BA;
+  position: absolute;
+  z-index: 99;
+  left: 0;
+  bottom: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+div.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 29px;
+}
+
+div.pagination p {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+}
+
+div.pagination nav ul li a {
+  width: 28px;
+  height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FFF;
+  margin: 0 6px;
+  border-radius: 5px;
+  color: #000;
+  font-size: 12px;
+  font-family: "Kanit", sans-serif;
+}
+
+div.pagination nav ul li a.active {
+  background-color: #5784BA;
+  color: #FFF;
+}
+
+div.container-fluid {
+  padding: 24px;
+  background-color: #E6EDF6;
+  font-family: "Roboto", sans-serif;
+}
+
+div.container-fluid div.row {
+  margin: 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+div.container-fluid div.row div.col.content {
+  padding-left: 40px;
+  padding-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.container-fluid div.row div.col.content div.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.container-fluid div.row div.col.content div.navigation img {
+  margin-right: 22px;
+  margin-left: 7px;
+}
+
+div.container-fluid div.row div.col.content div.navigation h1 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+div.container-fluid div.row div.col.content div.header-content .row {
+  margin-top: 30px;
+}
+
+div.container-fluid div.row div.col.content div.header-content .row div.col.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+}
+
+div.container-fluid div.row div.col.content div.header-content .row div.col.header div.input-group {
+  position: relative;
+  margin-right: 95px;
+}
+
+div.container-fluid div.row div.col.content div.header-content .row div.col.header div.input-group span {
+  background-color: #FFF;
+  border-right: 0;
+}
+
+div.container-fluid div.row div.col.content div.header-content .row div.col.header div.input-group input {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  padding: 8px 0;
+  border-left: 0;
+  margin-right: 8px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+div.container-fluid div.row div.col.content div.header-content .row div.col.header div.input-group ::-webkit-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ADA9A9;
+}
+
+div.container-fluid div.row div.col.content div.header-content .row div.col.header div.input-group :-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ADA9A9;
+}
+
+div.container-fluid div.row div.col.content div.header-content .row div.col.header div.input-group ::-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ADA9A9;
+}
+
+div.container-fluid div.row div.col.content div.header-content .row div.col.header div.input-group ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ADA9A9;
+}
+
+div.container-fluid div.row div.col.content div.header-content .row div.col.header div.input-group .btn-search {
+  background-color: #5784BA;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+  border: none;
+  padding: 11px 28px;
+}
+
+div.container-fluid div.row div.col.content div.header-content .row div.col.header div.sort-by-wrapper {
+  position: relative;
+}
+
+div.container-fluid div.row div.col.content div.header-content .row div.col.header div.sort-by-wrapper select.sort-by {
+  min-width: 192px;
+  position: relative;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 63px;
+  height: 100%;
+  color: #000;
+}
+
+div.container-fluid div.row div.col.content div.header-content .row div.col.header div.sort-by-wrapper span.label {
+  position: absolute;
+  left: 8px;
+  top: 12px;
+  z-index: 99;
+  font-size: 11px;
+  color: #9A9A9A;
+}
+
+div.container-fluid div.row div.col.content div.body-content {
+  margin-top: 8px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+div.container-fluid div.row div.col.content div.body-content table {
+  font-family: "Montserrat", sans-serif;
+}
+
+div.container-fluid div.row div.col.content div.body-content table div.form-check {
+  padding: 0;
+  margin: 0;
+}
+
+div.container-fluid div.row div.col.content div.body-content table div.form-check input {
+  margin: 0;
+  width: 20px;
+  height: 20px;
+}
+
+div.container-fluid div.row div.col.content div.body-content table tbody, div.container-fluid div.row div.col.content div.body-content table td, div.container-fluid div.row div.col.content div.body-content table tfoot, div.container-fluid div.row div.col.content div.body-content table th, div.container-fluid div.row div.col.content div.body-content table thead, div.container-fluid div.row div.col.content div.body-content table tr {
+  border-style: none;
+}
+
+div.container-fluid div.row div.col.content div.body-content table thead tr th {
+  padding: 27px 12px;
+}
+
+div.container-fluid div.row div.col.content div.body-content table thead tr th.checklist {
+  padding: 27px 32px;
+}
+
+div.container-fluid div.row div.col.content div.body-content table tbody tr th {
+  padding: 24px 32px;
+  background-color: #FFF;
+}
+
+div.container-fluid div.row div.col.content div.body-content table tbody tr.spacer {
+  background-color: #FFF;
+  border-bottom: 2px solid #D2DEED;
+}
+
+div.container-fluid div.row div.col.content div.body-content table tbody tr.spacer td {
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  padding: 14px 12px;
+}
+
+div.container-fluid div.row div.col.content div.body-content table tbody tr.spacer td span.badge {
+  background-color: #D2DEED;
+  font-weight: 500;
+  color: #5784BA;
+  font-size: 12px;
+  font-weight: 12px;
+  padding: 4px 8px;
+  border-radius: 15px;
+}
+
+div.container-fluid div.row div.col.content div.body-content table tbody tr.spacer td.score {
+  font-size: 24px;
+  font-weight: 700;
+  color: #51E72B;
+}
+
+div.container-fluid div.row div.col.content div.body-content table tbody tr.spacer td.list-vertical {
+  cursor: pointer;
+}
+/*# sourceMappingURL=myclass.css.map */

@@ -1,0 +1,524 @@
+div.col.sidebar {
+  max-width: 252px;
+  min-height: 100%;
+  max-height: 115vh;
+  padding: 0;
+}
+
+div.col.sidebar div.sidebar-wrapper {
+  background-color: #5784BA;
+  padding: 0 0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+div.col.sidebar div.sidebar-wrapper.profile {
+  background-color: #FFF;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-icon-notif {
+  padding: 34px 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-icon-notif img {
+  cursor: pointer;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info {
+  padding: 0 32px 75px;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info img {
+  width: 56px;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info {
+  margin-top: 26px;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info.profile h1, div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info.profile p {
+  color: #202020;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info h1, div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info p {
+  color: #F9F9F9;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info h1 {
+  font-size: 20px;
+  line-height: 23.44px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-user-info div.user-info p {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity {
+  -webkit-transition: .3s;
+  transition: .3s;
+  padding-bottom: 100px;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity.profile {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: #5784BA;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content {
+  padding: 0 37px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 78px;
+  cursor: pointer;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content img {
+  margin-right: 31px;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #FFF;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content.active {
+  height: 98px;
+  background-color: #FFF;
+  position: relative;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: -20px;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content.active img, div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content.active p {
+  margin-top: -20px;
+  color: #2F2F2F;
+  z-index: 9;
+}
+
+div.col.sidebar div.sidebar-wrapper div.sidebar-activity div.content.active::after {
+  content: "";
+  display: block;
+  height: 20px;
+  width: 100%;
+  background-color: #5784BA;
+  position: absolute;
+  z-index: 99;
+  left: 0;
+  bottom: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+div.container-fluid {
+  padding: 24px;
+  background-color: #E6EDF6;
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+}
+
+div.container-fluid div.row {
+  margin: 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+div.container-fluid div.row div.col.content {
+  padding: 0 0 0 32px;
+}
+
+div.container-fluid div.row div.col.content div.main-content {
+  padding: 0;
+  margin-right: 32px;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.news {
+  padding: 0;
+  background-color: #FFF;
+  border-radius: 30px;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.news h1 {
+  margin: 31.97px 0 20px 40px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23.66px;
+  color: #000000;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.news div.news {
+  position: relative;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.news div.news div.news-slider {
+  position: relative;
+  height: 318px;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.news div.news div.news-slider::after {
+  content: "";
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/ilustrations/bg-overlay.png);
+  z-index: 10;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.news div.news div.caption {
+  padding: 0 20px 25.44px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  z-index: 11;
+  bottom: 0;
+  left: 0;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.news div.news div.caption h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23.66px;
+  line-height: 29px;
+  color: #F9F9F9;
+  margin: 0 0 23.9px;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.news div.news div.caption div.navigation {
+  z-index: 11;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.news div.news div.caption div.navigation div.navigation-item {
+  width: 8.46px;
+  height: 7.95px;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  margin: 0 2.5px;
+  cursor: pointer;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.news div.news div.caption div.navigation div.navigation-item.active {
+  width: 20.3px;
+  background-color: #5784BA;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.news div.news img.news-image {
+  width: 100%;
+  height: 318px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 9;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.news div.news img.news-overlay {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  z-index: 10;
+  bottom: 0;
+  left: 0;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.schedule {
+  padding: 0;
+  border-radius: 30px;
+  background-color: #FFF;
+  padding: 32px 20px;
+  margin-top: 33px;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.schedule div.calender-wrapper {
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.schedule div.calender-wrapper h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23.66px;
+  color: #000000;
+  margin: 0 0 20px 20px;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.schedule div.calender-wrapper div.calendar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Kanit;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.schedule div.calender-wrapper div.calendar div.cal {
+  padding: 5px 8px;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.schedule div.calender-wrapper div.calendar div.cal h1, div.container-fluid div.row div.col.content div.main-content div.row div.col.schedule div.calender-wrapper div.calendar div.cal p {
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.schedule div.calender-wrapper div.calendar div.cal h1 {
+  color: #989898;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.schedule div.calender-wrapper div.calendar div.cal p {
+  margin-top: 7px;
+  color: #000000;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.schedule div.calender-wrapper div.calendar div.cal.active {
+  background: #5784BA;
+  border-radius: 15px;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.schedule div.calender-wrapper div.calendar div.cal.active h1, div.container-fluid div.row div.col.content div.main-content div.row div.col.schedule div.calender-wrapper div.calendar div.cal.active p {
+  color: #FFF;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.schedule div.calender-wrapper div.all-schedule-wrapper {
+  font-family: "Roboto", sans-serif;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.schedule div.calender-wrapper div.all-schedule-wrapper h1.title {
+  margin: 16px 0;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5784BA;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.schedule div.calender-wrapper div.all-schedule-wrapper h1.title span {
+  color: #ADA9BB;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.schedule div.schedule-wrapper h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5784BA;
+  text-align: center;
+  margin: 16px 0;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.schedule div.schedule-wrapper div.row.schedules {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.schedule div.schedule-wrapper div.row.schedules div {
+  border-radius: 6.63415px;
+  padding: 0;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.schedule div.schedule-wrapper div.row.schedules div.time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 17.55px;
+  max-width: 140.39px;
+  margin-right: 3.19px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.9531px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.schedule div.schedule-wrapper div.row.schedules div div.description {
+  padding: 18px 37px 18px 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.schedule div.schedule-wrapper div.row.schedules div div.description p {
+  margin: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18.5694px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  color: #010620;
+}
+
+div.container-fluid div.row div.col.content div.main-content div.row div.col.schedule div.schedule-wrapper div.row.schedules div div.description img {
+  margin-left: 30px;
+}
+
+div.container-fluid div.row div.col.content div.messages div.messages-wrapper {
+  padding: 22px 30px 0;
+  background-color: #FFF;
+  border-radius: 20px;
+}
+
+div.container-fluid div.row div.col.content div.messages div.messages-wrapper div.header div.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.container-fluid div.row div.col.content div.messages div.messages-wrapper div.header div.navigation img {
+  cursor: pointer;
+}
+
+div.container-fluid div.row div.col.content div.messages div.messages-wrapper div.header div.navigation h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+div.container-fluid div.row div.col.content div.messages div.messages-wrapper div.header div.search-wrapper {
+  margin: 24px 0 32.12px 0;
+  position: relative;
+}
+
+div.container-fluid div.row div.col.content div.messages div.messages-wrapper div.header div.search-wrapper img {
+  position: absolute;
+  left: 18.13px;
+  top: 13.64px;
+}
+
+div.container-fluid div.row div.col.content div.messages div.messages-wrapper div.header div.search-wrapper input {
+  height: 47.88px;
+  width: 100%;
+  background: #E6EDF6;
+  border-radius: 17.9544px;
+  border: none;
+  padding: 0 20px 0 51.71px;
+}
+
+div.container-fluid div.row div.col.content div.messages div.messages-wrapper div.header div.search-wrapper input:focus {
+  outline: none;
+}
+
+div.container-fluid div.row div.col.content div.messages div.messages-wrapper div.content ul li {
+  border: none;
+  padding: 0;
+  margin-bottom: 18.93px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+div.container-fluid div.row div.col.content div.messages div.messages-wrapper div.content ul li img {
+  width: 50px;
+  margin-right: 20.5px;
+}
+
+div.container-fluid div.row div.col.content div.messages div.messages-wrapper div.content ul li div.info {
+  font-family: "Kanit", sans-serif;
+}
+
+div.container-fluid div.row div.col.content div.messages div.messages-wrapper div.content ul li div.info h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21.2012px;
+  color: #000000;
+  margin-bottom: 0;
+  padding-right: 40px;
+}
+
+div.container-fluid div.row div.col.content div.messages div.messages-wrapper div.content ul li div.info p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14.1341px;
+  color: #787878;
+  margin-bottom: 0;
+}
+
+div.container-fluid div.row div.col.content div.messages div.messages-wrapper div.content ul li span.date {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  color: #787878;
+}
+/*# sourceMappingURL=allschedule.css.map */
